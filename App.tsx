@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
-import Layout from './components/Layout';
-import Quiz from './components/Quiz';
+import Layout from './Layout';
+import Quiz from './Quiz';
 import { ViewState, Lesson } from './types';
 import { LESSONS, CURRENT_LESSON, PODCASTS, PodcastEpisode } from './constants';
 import { GoogleGenAI, Modality } from "@google/genai";
